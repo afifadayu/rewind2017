@@ -1,0 +1,272 @@
+h1{
+    color:#6cc3d5;
+}
+h5{
+    color:#6cc3d5;
+    font-weight:bold;
+    text-shadow: 1px 1px 2px black; 
+}
+h3{
+    color:#56cc9d;
+    text-shadow: 1px 1px 2px #91debf; 
+}
+p{
+    text-shadow: 1px 1px 2px black; 
+}
+.h5-color{
+    color:#6cc3d5;
+    font-weight:bold;
+}
+.p-color{
+    text-shadow: 0px 0px 0px black; 
+}
+.margin-home {
+    text-align: right;
+    margin-right: 10vw;
+}
+#home {
+    margin-top: 30px;
+    padding-bottom: 260px;
+    padding-top: 160px;
+    margin-right:-20px;
+    background-attachment: fixed;
+    background: url("../img/home.jpg") center center;
+    background-size: cover;
+}
+#throwback {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-right:-20px;
+    background-attachment: fixed;
+    background-color: #6cc3d6;
+    background-size: cover;
+}
+#contactMe {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-right:-20px;
+    background-attachment: fixed;
+    background-color: #f29699;
+    background-size: cover;
+}
+.icon{
+    max-width:100px; 
+    margin-top: 0px;
+}
+.center-fix{
+    text-align: center;
+}
+.img-fix{
+    border-radius: 50%;
+}
+.margin-fix{
+    margin-top: -10px;    
+}
+.spacing-fix{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.head{
+    margin: auto;
+    margin-top: -20px;
+    width: 300px;
+}
+.head-hello{
+    margin: auto;
+    width:100px;
+}
+.img-throwback{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 80px;
+}
+.spacing-img{
+    margin-bottom: 30px;
+}
+.contactMe-img-fix{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+.contactMe-img{
+    width: 50px;
+    height: 50px;
+}
+.month {
+    display:none;
+}
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #f29699;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+/* untuk komputer */
+@media screen and (min-width: 1000px) {
+    h1{
+        color:#6cc3d5;
+    }
+    h5{
+        color:#6cc3d5;
+        font-weight:bold;
+        text-shadow: 1px 1px 2px black; 
+    }
+    p{
+        text-shadow: 1px 1px 2px black; 
+    }
+    .h5-color{
+        color:#6cc3d5;
+        font-weight:bold;
+    }
+    .p-color{
+        text-shadow: 0px 0px 0px black; 
+    }
+    h3{
+        color:#56cc9d;
+        text-shadow: 1px 1px 2px #91debf; 
+    }
+    .margin-home {
+        text-align: right;
+        margin-right: 15vw;
+        margin-top: 30vh;
+    }
+    .margin-fix{
+        margin-top: 0px;
+    }
+    .spacing-img{
+        margin-bottom: 50px;
+    }
+    .spacing-fix{
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    .head{
+        margin: auto;
+        width: 500px;
+        margin-top: -60px;
+    }
+    .head-hello{
+        margin: auto;
+        width:180px;
+    }
+    .img-throwback{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 80px;
+    }
+    .contactMe-img-fix{
+        margin: auto;
+        width: 500px;
+        height: 500px;
+        margin-top: -30px;
+        margin-bottom: 60px;
+    }
+    .contactMe-img{
+        margin-bottom: 0px;
+        width: 100px;
+        height: 100px;
+    }
+    #home {
+        margin-top: 10px;
+        height: 100vh;
+        background: url("../img/home.jpg") center center;
+        background-size: cover;
+    }
+    #throwback {
+        height: 100vh;
+        background-color: #6cc3d6;
+        background-size: cover;
+    }
+    #contactMe {
+        height: 100vh;
+        background-color: #f29699;
+        background-size: cover;
+    }
+    .icon{
+        max-width:100px; 
+        margin-top: 0px;
+    }
+    /* Popup container - can be anything you want */
+    .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    
+    /* The actual popup */
+    .popup .popuptext {
+        visibility: hidden;
+        width: 160px;
+        background-color: #f29699;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        top: 125%;
+        left: 50%;
+        margin-left: -80px;
+    }
+    
+    /* Toggle this class - hide and show the popup */
+    .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+    }
+    
+    /* Add animation (fade in the popup) */
+    @-webkit-keyframes fadeIn {
+        from {opacity: 0;} 
+        to {opacity: 1;}
+    }
+    
+    @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity:1 ;}
+    }
+}
