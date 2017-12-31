@@ -7,8 +7,7 @@ h5{
     text-shadow: 1px 1px 2px black; 
 }
 h3{
-    color:#56cc9d;
-    text-shadow: 1px 1px 2px #91debf; 
+    color: rgb(70, 70, 70);
 }
 p{
     text-shadow: 1px 1px 2px black; 
@@ -111,7 +110,7 @@ p{
 .popup .popuptext {
     visibility: hidden;
     width: 160px;
-    background-color: #f29699;
+    background-color: #56cc9d;
     color: #fff;
     text-align: center;
     border-radius: 6px;
@@ -201,6 +200,7 @@ p{
         margin-bottom: 60px;
     }
     .contactMe-img{
+        margin-top: -30px;
         margin-bottom: 0px;
         width: 100px;
         height: 100px;

@@ -63,6 +63,7 @@ $(document).ready(function(){
     });
 
 });
+
 document.getElementsByClassName("tablink")[0].click();
 
 function openMonth(evt, monthName) {
@@ -76,7 +77,6 @@ function openMonth(evt, monthName) {
     tablinks[i].classList.remove("btn-warning");
   }
   document.getElementById(monthName).style.display = "block";
-  evt.currentTarget.classList.add("btn-warning");
 }
 
 function openSpecificMonth(){
@@ -88,3 +88,20 @@ function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
 }
+
+function openModal(month){
+    document.getElementById('id01').style.display='block';
+    openMonth(null, month);
+}
+$('a.smooth-scroll[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
